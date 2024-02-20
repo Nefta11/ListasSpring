@@ -10,7 +10,7 @@
     <div>
     <h1 style="text-align: center; color: white;  margin-top: 35px;">Bienvenidos a mi lista con Thymeleaf</h1>
    </div>
-    <table class="table table-warning" style=" margin-top: 35px;">
+    <table class="table table-info table-hover" style=" margin-top: 35px;">
         <tr th:each="usuario : ${usuarios}">
             <td th:text="${usuario.id}"></td>
             <td th:text="${usuario.nombreUsuario}"></td>

@@ -23,6 +23,8 @@ public class PrincipalController {
         usuarios.add(new Usuario(5L, "Usuario 5", "Luis García Ramirez"));
         usuarios.add(new Usuario(6L, "Usuario 6", "Ana Martínez Lara"));
 
+        modelo.addAttribute("usuarios",usuarios);
+
         return "index";
     }
 
